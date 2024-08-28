@@ -100,11 +100,11 @@ uglyURLs = false
     name = "About"
     url = "/about/"
     weight = 10
-  #[[menu.main]]
-  #  identifier = "contact"
-  #  name = "Contact"
-  #  url = "/contact/"
-  #  weight = 10
+  [[menu.main]]
+    identifier = "archieves"
+    name = "Archives"
+    url = "/archieves/"
+    weight = 10
   [[memu.main]]
     identifier = "posts"
     name = "Posts"
