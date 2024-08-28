@@ -3,4 +3,27 @@ languageCode = "en-us"
 title = "欢迎来到灵魂圣所"
 theme = "paper"
 
+[params]
+  # color style
+  color = 'linen'
+  mastodon = 'https://bgme.me/@tongflow5199'    
+  rss = true                                # show rss icon
+  # home page profile
+  avatar = 'https://pic.imgdb.cn/item/66973f11d9c307b7e98e710b.png'                 # gravatar email or image url
+  name = '虚空'
+  bio = '她的一只眼睛有些忧伤，是灰色的；另一只依旧湛蓝，宛若八月群山中亘古不变的海眼'
 
+  math = true                               # enable KaTeX math typesetting globally
+  graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+  favicon = "https://pic.imgdb.cn/item/66ced493d9c307b7e96224dc.jpg"   
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  
+
+#[params.giscus]
+#  repo = 'kittykiller123/kitty-blog'                 # see https://giscus.app for more details
+#  repoId = 'YOUR_GISCUS_REPO_ID'
+#  category = 'YOUR__GISCUS_CATEGORY'
+#  categoryId = 'YOUR_GISCUS_CATEGORY_ID'
+#  mapping = 'pathname'
+#  theme = 'light'
+#  lang = 'zh-CN'
