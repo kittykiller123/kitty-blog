@@ -2,3 +2,6 @@
 	path = themes/hermit-v2
 	url = https://github.com/1bl4z3r/hermit-V2
 	branch = main
+[submodule "themes/paper"]
+	path = themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper
