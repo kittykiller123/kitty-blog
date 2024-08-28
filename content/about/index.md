@@ -12,11 +12,7 @@ draft: false
 我是桶，在努力成长为一个更坚强、对自己更体贴的人！
 
 博客的header logo来自于这个[捏脸网站](https://www.neka.cc/composer/11809)！
-{{< rawhtml >}}  
 
-<img src="https://cdn.discordapp.com/emojis/652089525622931456.gif?size=128" width=50 >
-
-{{< /rawhtml >}}
 * 喜欢小动物，最大的愿望是以后猫狗双全
 * 想要学习更多的技术知识，但是真的很懒（呜呜别骂了
 * 想要过更加自由的生活
