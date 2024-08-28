@@ -1,9 +1,69 @@
 baseURL = "https://kitty-blog.vercel.app/"
-languageCode = "en-us"
+languageCode = "zh-CN"
 title = "欢迎来到灵魂圣所"
 theme = "paper"
 
+
+# i18n
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = false
+
+# 摘要的字数限制
+summaryLength = 50
+
+# 是否开启 GitHub 风格的 Emoji 书写方式
+enableEmoji = true
+
+# 脚注的返回链接中的文本
+footnoteReturnLinkContents = "↩"
+
+
+# 每一分页的文章数（仅对「文章摘要」首页布局有效）
+paginate = 5
+
+# URL 相关
+disablePathToLower = false
+relativeURLs = false
+uglyURLs = false
+
+
+# Markdown 渲染器
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            definitionList = true
+            footnote = true
+            linkify = true
+            strikethrough = true
+            table = true
+            taskList = true
+            typographer = false
+        [markup.goldmark.parser]
+            attribute = true
+            autoHeadingID = true
+            autoHeadingIDType = "github"
+        [markup.goldmark.renderer]
+            hardWraps = false
+            unsafe = true
+            xHTML = false
+    [markup.highlight]
+        style = 'monokai'
+        codeFences = true
+        guessSyntax = false
+        lineNos = true
+        lineNumbersInTable = true
+        noClasses = false
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 6
+        ordered = true
+
+
+
 [params]
+  
+  
   # color style
   color = 'linen'
   mastodon = 'https://bgme.me/@tongflow5199'    
@@ -16,7 +76,7 @@ theme = "paper"
   math = true                               # enable KaTeX math typesetting globally
   graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
   favicon = "https://pic.imgdb.cn/item/66ced493d9c307b7e96224dc.jpg"   
-  monoDarkIcon = true                       # show monochrome dark mode icon
+  monoDarkIcon = false                       # show monochrome dark mode icon
   
 
 #[params.giscus]
@@ -27,3 +87,31 @@ theme = "paper"
 #  mapping = 'pathname'
 #  theme = 'light'
 #  lang = 'zh-CN'
+
+[params.contact]
+    email = 'info@example.org'
+    phone = '+1 202-555-1212'
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  #[[menu.main]]
+  #  identifier = "contact"
+  #  name = "Contact"
+  #  url = "/contact/"
+  #  weight = 10
+  [[memu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
